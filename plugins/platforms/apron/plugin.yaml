@@ -1,0 +1,14 @@
+name: apron-platform
+label: Apron
+kind: platform
+version: 1.0.0
+description: >
+  Apron gateway adapter for Hermes Agent. Connects to an Apron chat server
+  (https://apron.chat) as a bot user over WebSocket and answers the people
+  listed in platforms.apron.extra.users, each with their own toolsets.
+author: John Zila
+requires_env:
+  - name: APRON_TOKEN
+    description: "Bearer token the bot signs in to the Apron server with"
+    prompt: "Apron bot token"
+    password: true

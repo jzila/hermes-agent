@@ -1,0 +1,3 @@
+[submodule "plugins/platforms/apron/protocol"]
+	path = plugins/platforms/apron/protocol
+	url = https://github.com/shazow/apron.git
